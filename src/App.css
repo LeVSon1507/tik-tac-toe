@@ -1,0 +1,68 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: gray;
+}
+.titleWrap {
+   position: fixed;
+   top: 23%;
+   left: 30%;
+   background-color: bisque;
+   width: 20rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   height: 4rem;
+   transform: rotate(-10deg);
+}
+.title {
+   color: yellowgreen;
+   font-style: italic;
+}
+.board {
+   width: 12rem;
+   height: 6rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.square {
+   width: 150px;
+   height: 100px;
+   margin: 5px;
+   font-size: 32px;
+   font-weight: bold;
+}
+.square:hover {
+   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.square:active {
+   border-color: red;
+}
+
+.status {
+   position: fixed;
+   bottom: 25%;
+   right: 38%;
+   font-size: 32px;
+}
+.restartBtn {
+   position: fixed;
+   bottom: 25%;
+   right: 54.2%;
+   padding: 1rem 2rem;
+}
+.popupWrap {
+   background-color: antiquewhite;
+   padding: 5rem;
+   position: absolute;
+   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.popup {
+   font-size: 25px;
+   font-style: oblique;
+}
